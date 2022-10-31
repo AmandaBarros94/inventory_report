@@ -1,4 +1,5 @@
 import csv
+import json
 from inventory_report.reports.complete_report import CompleteReport
 from inventory_report.reports.simple_report import SimpleReport
 
@@ -10,6 +11,8 @@ class Inventory:
             if path.endswith(".csv"):
                 fileCsv = csv.DictReader(file)
                 data = [row for row in fileCsv]
+            elif path.endswith(".json"):
+                data = json.load(file)
             else:
                 raise ValueError("Arquivo inválido")
 
