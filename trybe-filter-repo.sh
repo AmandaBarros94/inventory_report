@@ -3,7 +3,7 @@
  ## NÃO EXECUTE ESSE SCRIPT DIRETAMENTE
  ## Esse script foi feito para uso do
  ## script 'publisher.sh' fornecido 
- ## pela Trybe. 
+ ## pela Trybe..
 
  [[ $# == 1 ]] && \
  [[ $1 == "trybe-security-parameter" ]] && \
