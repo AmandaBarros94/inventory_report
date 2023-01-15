@@ -77,7 +77,7 @@ Ao iniciar este projeto, você concorda com as diretrizes do Código de Conduta 
 
   - Verifique que você está na branch `master`
     - Exemplo: `git branch`
-  - Se não estiver, mude para a branch `master`
+  - Se não estiver, mude para a branch `master`.
     - Exemplo: `git checkout master`
   - Agora crie uma branch à qual você vai submeter os `commits` do seu projeto
     - Você deve criar uma branch no seguinte formato: `nome-github-nome-do-projeto`
